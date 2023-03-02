@@ -1,0 +1,16 @@
+[package]
+name = "best-match"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.69"
+ciborium = "0.2.0"
+clap = {version = "4.1.8", features = ["derive"]}
+rayon = "1.6.1"
+serde = "1.0.152"
+[dev-dependencies]
+tempfile = "3.4"
+float-cmp = "0.9"
